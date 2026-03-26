@@ -1,0 +1,421 @@
+[
+  {
+    "name": "AstraZeneca",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/jobs",
+    "career_url": "https://careers.astrazeneca.com"
+  },
+  {
+    "name": "Roche / Genentech",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs",
+    "career_url": "https://careers.roche.com"
+  },
+  {
+    "name": "Pfizer",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs",
+    "career_url": "https://careers.pfizer.com"
+  },
+  {
+    "name": "Novartis",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/jobs",
+    "career_url": "https://careers.novartis.com"
+  },
+  {
+    "name": "Eli Lilly",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://lilly.wd5.myworkdayjobs.com/wday/cxs/lilly/LLY/jobs",
+    "career_url": "https://careers.lilly.com"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/jobs",
+    "career_url": "https://jobs.jnj.com"
+  },
+  {
+    "name": "Bristol Myers Squibb",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs",
+    "career_url": "https://careers.bms.com"
+  },
+  {
+    "name": "Merck (MSD)",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://msd.wd5.myworkdayjobs.com/wday/cxs/msd/SearchJobs/jobs",
+    "career_url": "https://jobs.merck.com"
+  },
+  {
+    "name": "GSK",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://gsk.wd5.myworkdayjobs.com/wday/cxs/gsk/GSKCareers/jobs",
+    "career_url": "https://jobs.gsk.com"
+  },
+  {
+    "name": "Sanofi",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://sanofi.wd3.myworkdayjobs.com/wday/cxs/sanofi/SanofiCareers/jobs",
+    "career_url": "https://careers.sanofi.com"
+  },
+  {
+    "name": "AbbVie",
+    "tier": "T1",
+    "ats": "direct",
+    "career_url": "https://careers.abbvie.com",
+    "notes": "Custom career site (not standard Workday API) \u2014 check manually"
+  },
+  {
+    "name": "Amgen",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://amgen.wd1.myworkdayjobs.com/wday/cxs/amgen/Careers/jobs",
+    "career_url": "https://careers.amgen.com"
+  },
+  {
+    "name": "Takeda",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://takeda.wd3.myworkdayjobs.com/wday/cxs/takeda/External/jobs",
+    "career_url": "https://www.takeda.com/careers"
+  },
+  {
+    "name": "Gilead Sciences",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs",
+    "career_url": "https://jobs.gilead.com"
+  },
+  {
+    "name": "Biogen",
+    "tier": "T1",
+    "ats": "workday",
+    "api_url": "https://biibhr.wd3.myworkdayjobs.com/wday/cxs/biibhr/external/jobs",
+    "career_url": "https://careers.biogen.com"
+  },
+  {
+    "name": "Boehringer Ingelheim",
+    "tier": "T1",
+    "ats": "sap",
+    "career_url": "https://www.boehringer-ingelheim.com/careers",
+    "notes": "SAP SuccessFactors \u2014 check manually or add custom scraper"
+  },
+  {
+    "name": "Bayer (Pharma Div.)",
+    "tier": "T1",
+    "ats": "sap",
+    "career_url": "https://career.bayer.com",
+    "notes": "SAP SuccessFactors \u2014 check manually"
+  },
+  {
+    "name": "Astellas Pharma",
+    "tier": "T1",
+    "ats": "direct",
+    "career_url": "https://astellas.avature.net/en_GB/careers",
+    "notes": "Avature ATS \u2014 check manually"
+  },
+  {
+    "name": "Vertex Pharmaceuticals",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://vrtx.wd501.myworkdayjobs.com/wday/cxs/vrtx/Vertex_Careers/jobs",
+    "career_url": "https://www.vrtx.com/careers"
+  },
+  {
+    "name": "Regeneron",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://regeneron.wd1.myworkdayjobs.com/wday/cxs/regeneron/Careers/jobs",
+    "career_url": "https://careers.regeneron.com"
+  },
+  {
+    "name": "Moderna",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://modernatx.wd1.myworkdayjobs.com/wday/cxs/modernatx/M_tx/jobs",
+    "career_url": "https://www.modernatx.com/careers"
+  },
+  {
+    "name": "BioNTech",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://jobs.biontech.com",
+    "notes": "Custom ATS at jobs.biontech.com \u2014 check manually"
+  },
+  {
+    "name": "Alnylam Pharmaceuticals",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://opportunities.alnylam.com",
+    "notes": "Custom career site (iCIMS-based) \u2014 check manually"
+  },
+  {
+    "name": "Incyte Corporation",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://careers.incyte.com/jobs"
+  },
+  {
+    "name": "Ionis Pharmaceuticals",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://ionis.com/careers/"
+  },
+  {
+    "name": "UCB",
+    "tier": "T2",
+    "ats": "sap",
+    "career_url": "https://www.ucb.com/careers",
+    "notes": "SAP SuccessFactors \u2014 check manually"
+  },
+  {
+    "name": "Argenx",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://argenx.wd3.myworkdayjobs.com/wday/cxs/argenx/External_Careers/jobs",
+    "career_url": "https://careers.argenx.com"
+  },
+  {
+    "name": "Genmab",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://genmab.wd3.myworkdayjobs.com/wday/cxs/genmab/Genmab_Careers_Site/jobs",
+    "career_url": "https://careers.genmab.com"
+  },
+  {
+    "name": "Jazz Pharmaceuticals",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://careers.jazzpharma.com",
+    "notes": "vhr-hosted Workday tenant \u2014 CXS API not publicly accessible. Check manually."
+  },
+  {
+    "name": "Otsuka Pharmaceutical",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://www.otsuka.us/careers",
+    "notes": "vhr-hosted Workday tenant \u2014 CXS API not publicly accessible. Check manually."
+  },
+  {
+    "name": "Eisai",
+    "tier": "T2",
+    "ats": "taleo",
+    "career_url": "https://us.eisai.com/careers",
+    "notes": "Taleo \u2014 check manually"
+  },
+  {
+    "name": "Travere Therapeutics",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://travere.wd1.myworkdayjobs.com/wday/cxs/travere/TravereCareers/jobs",
+    "career_url": "https://www.travere.com/careers"
+  },
+  {
+    "name": "Beam Therapeutics",
+    "tier": "T2",
+    "ats": "greenhouse",
+    "career_url": "https://www.beamtx.com/careers",
+    "board_token": "beamtherapeutics"
+  },
+  {
+    "name": "Exelixis",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://exelixis.wd1.myworkdayjobs.com/wday/cxs/exelixis/Exel/jobs",
+    "career_url": "https://exelixis.com/careers"
+  },
+  {
+    "name": "Teva Pharmaceuticals",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://careers.teva/"
+  },
+  {
+    "name": "Alkermes",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://careers.alkermes.com/"
+  },
+  {
+    "name": "Neurocrine Biosciences",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://neurocrine.wd5.myworkdayjobs.com/wday/cxs/neurocrine/Neurocrinecareers/jobs",
+    "career_url": "https://www.neurocrine.com/careers"
+  },
+  {
+    "name": "Nuvation Bio",
+    "tier": "T2",
+    "ats": "direct",
+    "career_url": "https://nuvationbio.com/careers/"
+  },
+  {
+    "name": "Halozyme Therapeutics",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://halozyme.wd1.myworkdayjobs.com/wday/cxs/halozyme/halozymecareers/jobs",
+    "career_url": "https://www.halozyme.com/careers"
+  },
+  {
+    "name": "Sage Therapeutics",
+    "tier": "T2",
+    "ats": "workday",
+    "api_url": "https://sagerx.wd5.myworkdayjobs.com/wday/cxs/sagerx/Sagerx/jobs",
+    "career_url": "https://www.sagerx.com/careers"
+  },
+  {
+    "name": "IQVIA",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://iqvia.wd1.myworkdayjobs.com/wday/cxs/iqvia/IQVIA/jobs",
+    "career_url": "https://jobs.iqvia.com"
+  },
+  {
+    "name": "Parexel",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://parexel.wd1.myworkdayjobs.com/wday/cxs/parexel/Parexel_External_Careers/jobs",
+    "career_url": "https://careers.parexel.com"
+  },
+  {
+    "name": "ICON plc (incl. PRA)",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://icon.wd3.myworkdayjobs.com/wday/cxs/icon/broadbean_external/jobs",
+    "career_url": "https://careers.iconplc.com"
+  },
+  {
+    "name": "Syneos Health",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://syneoshealth.wd12.myworkdayjobs.com/wday/cxs/syneoshealth/Syneos_Health_External_Site/jobs",
+    "career_url": "https://syneoshealth.com/careers"
+  },
+  {
+    "name": "Fortrea",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://fortrea.wd1.myworkdayjobs.com/wday/cxs/fortrea/Fortrea/jobs",
+    "career_url": "https://careers.fortrea.com"
+  },
+  {
+    "name": "PPD / Thermo Fisher",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://thermofisher.wd5.myworkdayjobs.com/wday/cxs/thermofisher/ThermoFisherCareers/jobs",
+    "career_url": "https://jobs.thermofisher.com"
+  },
+  {
+    "name": "Medpace",
+    "tier": "T3",
+    "ats": "icims",
+    "career_url": "https://www.medpace.com/careers",
+    "notes": "iCIMS \u2014 check manually"
+  },
+  {
+    "name": "Worldwide Clinical Trials",
+    "tier": "T3",
+    "ats": "workday",
+    "api_url": "https://worldwide.wd1.myworkdayjobs.com/wday/cxs/worldwide/External/jobs",
+    "career_url": "https://www.worldwide.com/careers"
+  },
+  {
+    "name": "Ergomed",
+    "tier": "T3",
+    "ats": "direct",
+    "career_url": "https://ergomed.com/careers"
+  },
+  {
+    "name": "Covance (Labcorp)",
+    "tier": "T3",
+    "ats": "taleo",
+    "career_url": "https://careers.labcorp.com",
+    "notes": "Taleo \u2014 check manually"
+  },
+  {
+    "name": "Veeva Systems",
+    "tier": "T4",
+    "ats": "lever",
+    "career_url": "https://careers.veeva.com",
+    "board_token": "veeva"
+  },
+  {
+    "name": "Medidata (Dassault)",
+    "tier": "T4",
+    "ats": "direct",
+    "career_url": "https://www.3ds.com/careers/jobs"
+  },
+  {
+    "name": "Oracle Health Sciences",
+    "tier": "T4",
+    "ats": "taleo",
+    "career_url": "https://www.oracle.com/careers",
+    "notes": "Taleo \u2014 check manually"
+  },
+  {
+    "name": "Clario",
+    "tier": "T4",
+    "ats": "workday",
+    "api_url": "https://clarioclinical.wd1.myworkdayjobs.com/wday/cxs/clarioclinical/clarioclinical_careers/jobs",
+    "career_url": "https://clario.com/careers"
+  },
+  {
+    "name": "Signant Health",
+    "tier": "T4",
+    "ats": "direct",
+    "career_url": "https://jobs.dayforcehcm.com/en-US/signanthealth/CANDIDATEPORTAL",
+    "notes": "Dayforce HCM \u2014 no public API. Check manually."
+  },
+  {
+    "name": "Databricks",
+    "tier": "T4",
+    "ats": "greenhouse",
+    "board_token": "databricks",
+    "career_url": "https://www.databricks.com/company/careers"
+  },
+  {
+    "name": "Certara",
+    "tier": "T4",
+    "ats": "icims",
+    "career_url": "https://careers.certara.com",
+    "notes": "iCIMS-based career site \u2014 check manually"
+  },
+  {
+    "name": "Tempus",
+    "tier": "T4",
+    "ats": "workday",
+    "api_url": "https://tempus.wd5.myworkdayjobs.com/wday/cxs/tempus/Tempus_Careers/jobs",
+    "career_url": "https://www.tempus.com/careers"
+  },
+  {
+    "name": "Dataiku",
+    "tier": "T4",
+    "ats": "greenhouse",
+    "board_token": "dataiku",
+    "career_url": "https://www.dataiku.com/company/careers"
+  },
+  {
+    "name": "Palantir (Life Sciences)",
+    "tier": "T4",
+    "ats": "lever",
+    "board_token": "palantir",
+    "career_url": "https://www.palantir.com/careers"
+  },
+  {
+    "name": "Cytel",
+    "tier": "T4",
+    "ats": "direct",
+    "career_url": "https://www.cytel.com/careers"
+  }
+]

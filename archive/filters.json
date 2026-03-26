@@ -1,0 +1,281 @@
+{
+  "_readme": "Edit this file to tune search behavior. No Python changes needed. Restart the script after saving.",
+
+  "dimension1_title": {
+    "_readme": "D1 — Title filter. A role must have a seniority signal AND a domain pair (some pairs need an amplifier). Edit freely.",
+
+    "seniority": [
+      "lead",
+      "principal",
+      "director",
+      "dir",
+      "senior director",
+      "senior dir",
+      "sr director",
+      "sr dir",
+      "executive director",
+      "executive dir",
+      "exec director",
+      "exec dir",
+      "ed",
+      "head",
+      "head of"
+    ],
+
+    "domain_pairs": [
+      "advanced analytics",
+      "advanced insights",
+      "advanced analytics and insights",
+      "ai",
+      "ai strategy",
+      "ai strategist",
+      "analytics and insights",
+      "business intelligence",
+      "center of excellence",
+      "clinical development transformation",
+      "clinical data strategy",
+      "clinical operations excellence",
+      "clinical development",
+      "clinical data science",
+      "clinical data management",
+      "clinical data",
+      "clinical insights",
+      "clinical analytics",
+      "clinical informatics",
+      "clinical innovation",
+      "clinical operations",
+      "clinical technology",
+      "clinical systems",
+      "clinical data platform",
+      "clinical data infrastructure",
+      "data analytics",
+      "data platform",
+      "data strategy",
+      "data strategist",
+      "data strategy and governance",
+      "data governance",
+      "data science",
+      "data acquisition",
+      "data management",
+      "data quality",
+      "data integrity",
+      "data operations",
+      "data enablement",
+      "data partnerships",
+      "digital analytics",
+      "digital transformation",
+      "digital innovation",
+      "digital health",
+      "digital insights",
+      "digital clinical operatoins",
+      "digital operations",
+      "digital solutions",
+      "digitization strategy",
+      "innovation",
+      "innovation excellence",
+      "insights",
+      "insights and strategy",
+      "insights and analytics",
+      "integrated evidence",
+      "integrated strategy",
+      "integration strategy",
+      "operations solutions",
+      "operational excellence",
+      "operational intelligence",
+      "operational solutions",
+      "operations solutions",
+      "performance excellence",
+      "platform engineering",
+      "process excellence",
+      "process optimization",
+      "process lead",
+      "process owner",
+      "process management",
+      "product analytics",
+      "r&d strategy",
+      "r&d digital",
+      "r&d data",
+      "r&d analytics",
+      "r&d operations",
+      "r&d platform",
+      "research and development strategy",
+      "research and development digital",
+      "research and development data",
+      "research and development analytics",
+      "research and development operations",
+      "research and development platform",
+      "reporting and analytics",
+      "solutons head",
+      "solutions lead",
+      "strategy and insights",
+      "strategy and operations",
+      "strategy implementation",
+      "strategic development",
+      "strategy deployment",
+      "strategic initiatives",
+      "strategic operations",
+      "strategic solutions",
+      "strategy execution",
+      "strategy integration",
+      "technology & innovation",
+      "technology and innovation",
+      "technology strategy"
+    ],
+
+    "broad_terms": {
+      "_readme": "These domain pairs are too generic alone. A role title must ALSO contain at least one amplifier from the list.",
+      "clinical operations":    ["data","digital","technology","platform","analytics","informatics","insight","transformation","excellence"],
+      "business intelligence":  ["clinical","r&d","research and development", "pharma","life science"],
+      "data management":        ["clinical","r&d", "research and development", "digital", "innovation"],
+      "technology strategy":    ["clinical","r&d", "research and development", "digital", "innovation"],
+      "clinical development":   ["data","analytics","digital","transformation","technology","platform","intelligence","insight"],
+      "technology & innovation":    ["r&d","research and development", "clinical"],
+      "technology and innovation":  ["r&d","research and development", "clinical"]
+    },
+
+    "exclude_title": [
+      "medical director",
+      "clinical data manager",
+      "regulatory",
+      "finance",
+      "legal",
+      "marketing",
+      "sales",
+      "commercial",
+      "human resources",
+      "hr ",
+      "accounting",
+      "tax",
+      "real estate",
+      "manufacturing",
+      "supply chain",
+      "procurement",
+      "facilities",
+      "it director",
+      "information technology director"
+    ]
+  },
+
+  "dimension2_search_clusters": {
+    "_readme": "D2 — ATS search query strings. Each string is sent as a Workday searchText query. Edit, add, or remove clusters to tune what comes back from the ATS. Fewer broad clusters work better than many narrow ones.",
+    "clusters": [
+      "clinical data strategy governance analytics",
+      "data acquisition clinical data management",
+      "risk-based monitoring clinical informatics",
+      "AI readiness data quality surveillance",
+      "CDISC clinical data science",
+      "Databricks lakehouse clinical",
+      "digital transformation clinical development",
+      "operating model process redesign clinical",
+      "workflow automation change management R&D",
+      "capability building governance framework",
+      "platform strategy EDC CTMS clinical",
+      "clinical technology evaluation enterprise platform",
+      "AI ML integration clinical data platform",
+      "R&D operations clinical trials sponsor-side",
+      "GCP regulated environment database lock",
+      "development operations clinical systems"
+    ]
+  },
+
+  "dimension3_departments": {
+    "_readme": "D3 — Department/team name signals. A role with a non-standard title can still surface if its department matches one of these. Still requires a seniority signal in the title.",
+    "signals": [
+      
+      "business intelligence",    
+      "clinical development",
+      "clinical data management",
+      "clinical systems",
+      "clinical informatics",
+      "data management sciences",
+      "data science",
+      "development operations",
+      "digital health",
+      "digital innovation",
+      "global development",
+      "r&d digital",
+      "r&d operations",
+      "research and development digital",
+      "research and development operations",
+      "research operations",
+      "strategy & operations"
+    ]
+  },
+
+  "scoring": {
+    "_readme": "Scoring weights. Max possible score = sum of all max values = 20. Adjust thresholds to recalibrate labels.",
+
+    "seniority_scores": {
+      "_readme": "Points awarded for seniority level found in title. Checked in order — first match wins.",
+      "director":        5,
+      "dir":             5,
+      "senior director": 4,
+      "senior dir":      4,
+      "sr director":     4,    
+      "sr dir":          4,
+      "head of":         4,
+      "head":            4,
+      "executive director": 3,
+      "executive dir": 3, 
+      "exec director": 3,
+      "exec dir": 3, 
+      "ed": 3,
+      "lead": 3,
+      "principal": 3,
+      "associate director": 2
+      },
+
+
+    "title_precision": {
+      "_readme": "Points for how precisely the title matches a target archetype.",
+      "high_score": 7,
+      "medium_score": 4,
+      "d3_only_score": 2,
+      "high_precision_pairs": [
+        "clinical data strategy", "clinical development transformation",
+        "r&d digital transformation", "digital transformation",
+        "clinical data science", "clinical informatics",
+        "data acquisition", "clinical data management",
+        "clinical data operations", "r&d platform", "data platform",
+        "clinical technology", "clinical systems", "process excellence",
+        "data governance", "data quality", "clinical analytics", "r&d data",
+        "clinical data infrastructure", "clinical data platform",
+        "platform engineering", "operational intelligence"
+      ],
+      "medium_precision_pairs": [
+        "digital innovation", "clinical operations excellence", "r&d strategy",
+        "data strategy", "r&d operations", "clinical insights", "r&d analytics",
+        "technology strategy", "clinical development", "business intelligence",
+        "data management"
+      ]
+    },
+
+    "cluster_density": {
+      "_readme": "Points for how many D2 search clusters returned this role. Capped at max_score.",
+      "max_score": 4
+    },
+
+    "department_alignment": {
+      "_readme": "Bonus if department label matches a D3 signal.",
+      "score": 2
+    },
+
+    "tier_bonus": {
+      "_readme": "Small bonus for company tier. Keeps tier from overriding fit signals.",
+      "T1": 1, "T2": 1, "T3": 0, "T4": 0
+    },
+
+    "label_thresholds": {
+      "_readme": "Score ranges for match labels. Adjust if too many or too few roles are labeled Strong.",
+      "strong_min": 15,
+      "good_min":   11,
+      "possible_min": 7,
+      "labels": {
+        "strong":   "Strong",
+        "good":     "Good",
+        "possible": "Possible",
+        "weak":     "Weak"
+      }
+    }
+  }
+}
